@@ -1,0 +1,170 @@
+:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --main-bg-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+  --buttos-bg-color: #f5f4fa;
+}
+/* body */
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-family: Roboto, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Roboto, sans-serif;
+}
+
+/* отключает маркированый список */
+
+ul {
+  list-style: none;
+}
+
+/* уберает подчеркивание */
+
+a {
+  text-decoration: none;
+}
+
+/* logo */
+
+.logo {
+  color: var(--main-text-color);
+
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-item {
+  color: var(--accent-color);
+}
+
+/* site-nav */
+
+.site-nav .link {
+  color: var(--main-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.link {
+  color: var(--secondary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+/* button */
+
+/* .button {} */
+
+.button-primary {
+  cursor: pointer;
+  background-color: var(--accent-color);
+  color: var(--main-bg-color);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+}
+
+.button-secondary {
+  cursor: pointer;
+  background-color: var(--buttos-bg-color);
+  color: var(--main-text-color);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+}
+
+/* our projects */
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--secondary-bg-color);
+}
+
+.footer .logo,
+.footer-nav {
+  color: var(--main-bg-color);
+}
+
+.footer-nav {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-mail,
+.footer-tel {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-mail:hover,
+.footer-tel:hover {
+  color: var(--accent-color);
+}
+
+/* черный дополнительны цвет  #757575;*/
+/* черный основной цвет #212121;*/
+/* цвет фона кнопок #F5F4FA; */
+/* акцент #2196F3; */
+/* белый  #FFFFFF; */
+/* белый вторичный #E5E5E5 */
